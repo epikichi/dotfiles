@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.bash_profile
+!.config
+!.config/nvim/
+!.config/nvim/init.vim
+!.config/nvim/colors/
+!.config/nvim/colors/*.vim
