@@ -10,13 +10,13 @@ endif
 let g:colors_name = "typewriter-epik"
 
 hi Cursor          ctermfg=64               guibg=#528BFF
-hi Normal          ctermfg=246 ctermbg=235  guifg=#E4E4E4 guibg=#262626
-hi Title           ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bold cterm=bold
+hi Normal          ctermfg=246 ctermbg=NONE  guifg=#E4E4E4 guibg=#262626
+hi Title           ctermfg=254 ctermbg=NONE  guifg=#E4E4E4 guibg=#262626 term=bold cterm=bold
 hi Special         ctermfg=253 ctermbg=NONE guifg=#BCBCBC guibg=NONE
 hi Comment         ctermfg=239 ctermbg=NONE guifg=#4E4E4E guibg=NONE cterm=italic
 hi Constant        ctermfg=252 ctermbg=NONE guifg=#D0D0D0 guibg=NONE
-hi String          ctermfg=101 ctermbg=NONE guifg=#6C6C6C guibg=NONE
-hi Number          ctermfg=101 ctermbg=NONE guifg=#D0D0D0 guibg=NONE
+hi String          ctermfg=144 ctermbg=NONE guifg=#AFAF87 guibg=NONE
+hi Number          ctermfg=144 ctermbg=NONE guifg=#D0D0D0 guibg=NONE
 hi htmlTagName     ctermfg=254 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
 hi Identifier      ctermfg=250 ctermbg=NONE guifg=#BCBCBC guibg=NONE
 hi Statement       ctermfg=242 ctermbg=NONE guifg=#6C6C6C guibg=NONE cterm=NONE
@@ -41,11 +41,11 @@ hi Folded          ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bol
 hi ModeMsg         ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
 hi MoreMsg         ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
 hi WarningMsg      ctermfg=130 ctermbg=235  guifg=#FF5F00 guibg=#262626
-hi ErrorMsg        ctermfg=9 ctermbg=234  guifg=#E41D91 guibg=#1C1C1C term=italic cterm=italic
+hi ErrorMsg        ctermfg=9   ctermbg=234  guifg=#E41D91 guibg=#1C1C1C term=italic cterm=italic
 hi Visual          ctermfg=235 ctermbg=243  guifg=#262626 guibg=#AFD7FF
 hi SpecialKey      ctermfg=254 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
 hi NonText         ctermfg=249 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
-hi ExtraWhitespace             ctermbg=237                guibg=#3A3A3A
+hi ExtraWhitespace             ctermbg=235                guibg=#3A3A3A
 hi MatchParen      ctermfg=250 ctermbg=238  guifg=#BCBCBC guibg=#444444 cterm=bold
 hi Pmenu           ctermfg=254 ctermbg=233  guifg=#E4E4E4 guibg=#121212
 hi PmenuSel        ctermfg=234 ctermbg=255  guifg=#1C1C1C guibg=#EEEEEE
